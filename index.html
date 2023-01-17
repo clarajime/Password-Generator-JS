@@ -5,9 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+    <div class="container" id = "passwordOptions">
+
+      <div class="row p-4">
+
+        <div class="form-check col-12 col-md-4">
+          <input class="form-check-input" type="checkbox" value="" id="includeLowerCase" checked>
+          <label class="form-check-label" for="includeLowerCase">
+          Include Lowercase
+          </label>
+        </div>
+
+        <div class="form-check col-12 col-md-4">
+          <input class="form-check-input" type="checkbox" value="" id="includeUpperCase" checked>
+          <label class="form-check-label" for="includeUpperCase">
+          Include Uppercase
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-4">
+          <input class="form-check-input" type="checkbox" value="" id="includeSpecial" checked>
+          <label class="form-check-label" for="includeSpecial">
+          Include Special Chars ($@%&*, etc)
+          </label>
+        </div>
+
+      </div>
+
+      <div class="row p-3 ">
+        <label for="passwordLength" class="col-sm-2 col-form-label text-nowrap me-auto">Password Length (8 - 128) :</label>
+        <div class="col-sm-4 m-auto">
+          <input type="text" class="form-control" id="passwordLength" placeholder="12">
+        </div>
+      </div>
+
+    </div>
+    
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
@@ -29,6 +65,7 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="/scripts/script.js"></script>
   </body>
 </html>
