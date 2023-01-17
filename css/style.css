@@ -135,3 +135,17 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+.card-header {
+
+  background-color: #e7e9eb;
+}
+
+#passwordOptions{
+  
+  background-color: rgb(188, 222, 246);
+  margin-bottom: 4rem;
+  border: 3px solid rgb(54, 103, 226);
+  display: none;
+}
+

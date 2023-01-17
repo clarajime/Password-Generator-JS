@@ -25,7 +25,7 @@
 * https://github.com/clarajime/Password-Generator-JS.git
 
 ## Live URL
-* 
+* https://clarajime.github.io/Password-Generator-JS/
 
 ## Screenshot
 
