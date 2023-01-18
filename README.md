@@ -27,7 +27,7 @@
 
 ## Screenshot
 
-![alt text](/assets/05-javascript-challenge-demo.png)
+![alt text](./assets/image/05-javascript-challenge-demo.png)
 
 
 ## License 
